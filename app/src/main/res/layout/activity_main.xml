@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="kotlindemo_test.cn.com.ruan_kotlin.MainActivity"
+        android:orientation="vertical">
+
+
+
+    <FrameLayout
+            android:id="@+id/fl_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:alpha="0.5"
+            android:background="@color/colorPrimaryDark"/>
+
+
+    <RadioGroup
+            android:id="@+id/radio_group_tap"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            >
+
+        <RadioButton
+                android:id="@+id/rb_tab_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/frame_tab_home_selector"
+                android:padding="5dp"
+                android:text="home"
+                android:textColor="@drawable/frame_tab_text_selector"
+                android:gravity="center"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_tab_second"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/frame_tab_second_selector"
+                android:padding="5dp"
+                android:text="second"
+                android:textColor="@drawable/frame_tab_text_selector"
+                android:gravity="center"
+                />
+
+        <RadioButton
+                android:id="@+id/rb_tab_my"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/frame_tab_my_selector"
+                android:padding="5dp"
+                android:text="my"
+                android:textColor="@drawable/frame_tab_text_selector"
+                android:gravity="center"
+                />
+
+    </RadioGroup>
+
+
+</LinearLayout>

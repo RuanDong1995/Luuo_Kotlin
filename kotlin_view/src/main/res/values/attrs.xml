@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- TitleBar -->
+    <declare-styleable name="TitleBar">
+        <attr name="leftText" format="string" />
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftButton" format="reference" />
+        <attr name="leftButtonPadding" format="dimension" />
+        <attr name="titleText" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightButton" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="kotlindemo_test.cn.com.user">
+
+    <application>
+        <activity android:name=".ui.LoginActivity">
+        </activity>
+        <activity android:name=".ui.SignUpActivity">
+        </activity>
+    </application>
+
+</manifest>

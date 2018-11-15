@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="kotlindemo_test.cn.com.ruan_kotlin.fragment.MyFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <kotlindemo_test.cn.com.kotlin_view.TitleBar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimaryDark"
+            app:titleText="我的"
+            />
+
+    <Button
+            android:id="@+id/mBtnLogin"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="登录"/>
+
+</FrameLayout>
