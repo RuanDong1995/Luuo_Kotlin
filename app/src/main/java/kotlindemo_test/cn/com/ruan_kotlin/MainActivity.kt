@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private val TAG_HOME = "home"
     private val TAG_SECOND = "second"
     private val TAG_MY = "my"
+    private var a = 1
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
