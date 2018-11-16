@@ -52,7 +52,6 @@ class SecondFragment : BaseFragment() {
 
     override fun queryData() {
         val bmobQuery = BmobQuery<Person>("luuo")
-
         bmobQuery.findObjectsByTable(object : QueryListener<JSONArray>() {
             override fun done(jsonArray: JSONArray?, e: BmobException?) {
                 if (e == null) {

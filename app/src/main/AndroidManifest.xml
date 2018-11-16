@@ -3,6 +3,7 @@
           package="kotlindemo_test.cn.com.ruan_kotlin">
 
 
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <!--允许联网 -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!--获取GSM（2g）、WCDMA（联通3g）等网络状态的信息  -->
